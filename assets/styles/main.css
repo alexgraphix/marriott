@@ -1222,7 +1222,7 @@ fieldset {
     text-decoration: none;
 }
 
-@media (min-width:767px) {
+@media (min-width:768px) {
     .lang-menu {
         padding-top: 52px;
     }
@@ -1270,19 +1270,19 @@ fieldset {
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: 134%;
 }
 
-@media (min-width:767px) {
-
+@media (min-width:768px) {
     .page-header {
         padding-top: 130px;
         background: url("../../images/KV_01.jpg");
     }
-
     .fixed-background {
-        background-attachment: fixed;
         background-size: cover;
+        background-attachment: scroll;
+        background-position: center top;
+        background-repeat: no-repeat;
     }
 }
 
@@ -1341,12 +1341,18 @@ fieldset {
     padding-top: 170px;
 }
 
+@media (min-width:481px) {
+    .KV_logo {
+        padding-top: 220px;
+    }
+}
+
 .KV_logo img {
     width: 120px;
     height: 37px;
 }
 
-@media (min-width:767px) {
+@media (min-width:768px) {
     .KV_logo {
         padding-top: 345px;
     }
@@ -1621,12 +1627,12 @@ label {
     cursor: pointer;
     transition: 0.2s;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 
 .promo .text .promo-text {
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 
 .promo-box .text .promo-btn:hover {
@@ -1655,12 +1661,12 @@ label {
     .promo-box .text .promo-btn {
         position: absolute;
         margin-left: auto;
-        margin-right:auto;
+        margin-right: auto;
         border: 1px solid #fff;
         color: #fff;
         top: 40%;
-        left:15%;
-        right:15%;
+        left: 15%;
+        right: 15%;
     }
 }
 
