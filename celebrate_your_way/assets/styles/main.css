@@ -1104,22 +1104,30 @@ fieldset {
 .component-benefits__item {
     flex: 0 0 auto;
     width: 100%;
-    margin: 40px 0
+    margin: 40px 0;
+    border:none;
 }
 
 @media (min-width:1000px) {
     .component-benefits__item {
-        width: 278px;
+        width: 30%;
         margin: 0;
-        margin-left: 80px
+        padding-right: 80px;
+        padding-left: 80px;
+        border-right:1px solid #ccc;
     }
+    .component-benefits__item:first-child {
+        padding-left: 0;
+    }
+
+    .component-benefits__item:last-child {
+
+        border-right:none;
+    }
+
+
 }
 
-@media (min-width:1000px) {
-    .component-benefits__item:first-child {
-        margin-left: 0
-    }
-}
 
 .component-benefits__item__icon {
     position: relative;
@@ -1209,10 +1217,11 @@ fieldset {
     display: block;
     cursor: pointer;
     padding-right: 18px;
+    color:#000;
 }
 
 .lang-menu a.burger-icon:hover {
-    color: #fff;
+    color: #666;
     background-color: transparent;
 }
 
@@ -1224,19 +1233,19 @@ fieldset {
 
 @media (min-width:768px) {
     .lang-menu {
-        padding-top: 52px;
+        padding-top: 35px;
     }
     .menu-item {
         flex-direction: row;
         background-color: transparent;
     }
     .lang-menu a {
-        color: #fff;
+        color: #000;
     }
     .lang-menu a:hover,
     .lang-menu a.active {
-        color: #000;
-        background-color: #fff;
+        color: #fff;
+        background-color: #464646;
         text-decoration: none;
     }
     .lang-menu .menu-item a {
@@ -1254,7 +1263,7 @@ fieldset {
 
 .page-header {
     width: 100%;
-    padding-top: 60px;
+    padding-top: 27px;
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
@@ -1262,7 +1271,7 @@ fieldset {
 
 
 .fixed-background-KV {
-    background: url("../../images/KV_mobile.jpg");
+    background: url("../../images/KV_Marriott_Celebrate_Your_Way.jpg");
     background-attachment: scroll;
     background-size: 134%;
     background-position: center top;
@@ -1280,10 +1289,10 @@ fieldset {
 
 @media (min-width:768px) {
     .page-header {
-        padding-top: 130px;
+        padding-top: 85px;
     }
     .fixed-background-KV {
-        background: url("../../images/KV_01.jpg");
+        background: url("../../images/KV_Marriott_Celebrate_Your_Way.jpg");
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -1304,7 +1313,7 @@ fieldset {
 
 .KV-header {
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1313,7 +1322,7 @@ fieldset {
 
 .KV-header-desc {
     font-size: 16px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     text-align: center;
 }
@@ -1325,7 +1334,7 @@ fieldset {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 276px;
 }
 
 .KV-subheader-desc {
@@ -1337,17 +1346,31 @@ fieldset {
     line-height: 1.5;
 }
 
+@media (min-width:600px) {
+
+    .KV-subheader {
+        font-size: 36px;
+        padding-top: 40px;
+        padding-top: 366px;
+    }
+    .KV-subheader-desc {
+        font-size: 18px;
+        padding-top: 25px;
+    }
+
+}
+
 .text-center {
     text-align: center;
 }
 
 .KV_logo {
-    padding-top: 170px;
+    padding-top: 0px;
 }
 
 @media (min-width:481px) {
     .KV_logo {
-        padding-top: 220px;
+        padding-top: 0px;
     }
 }
 
@@ -1358,7 +1381,7 @@ fieldset {
 
 @media (min-width:768px) {
     .KV_logo {
-        padding-top: 345px;
+        padding-top: 0px;
     }
     .KV_logo img {
         width: 174px;
@@ -1381,8 +1404,14 @@ fieldset {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
+}
+
+.remarks {
+    font-size: 16px;
+    color:#707070;
+    margin-top:30px;
 }
 
 .button-text {
@@ -1560,13 +1589,14 @@ label {
     z-index: 2;
     font-size: 16px;
     color: #fff;
-    padding: 40px 40px 0 40px;
+    padding: 40px 20px 0 20px;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     transition: 0.2s;
+    width:100%;
 }
 
 .slide-box .slide-item:hover .text {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .slide-box .image {
@@ -1795,14 +1825,6 @@ label {
     }
     .KV-header-desc {
         font-size: 22px;
-    }
-    .KV-subheader {
-        font-size: 36px;
-        padding-top: 40px;
-    }
-    .KV-subheader-desc {
-        font-size: 18px;
-        padding-top: 25px;
     }
     .middle-border {
         border-bottom: 1px solid #c7c7c7;
