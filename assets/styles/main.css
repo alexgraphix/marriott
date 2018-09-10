@@ -1270,7 +1270,6 @@ fieldset {
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 134%;
 }
 
 @media (min-width:768px) {
