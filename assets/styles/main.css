@@ -1258,16 +1258,22 @@ fieldset {
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
-    background: url("../../images/KV_mobile.jpg");
     background-color: #f9f9f9;
 }
 
-.form-bg {
-    background: url("../../images/form-background.jpg");
+
+.fixed-background-KV {
+    background: url("../../images/KV_mobile.jpg");
+    background-attachment: scroll;
+    background-size: 134%;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
-.fixed-background {
-    background-attachment: scroll;
+.fixed-background-form {
+    background: url("../../images/form-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -1275,11 +1281,10 @@ fieldset {
 @media (min-width:768px) {
     .page-header {
         padding-top: 130px;
-        background: url("../../images/KV_01.jpg");
     }
-    .fixed-background {
+    .fixed-background-KV {
+        background: url("../../images/KV_01.jpg");
         background-size: cover;
-        background-attachment: scroll;
         background-position: center top;
         background-repeat: no-repeat;
     }
