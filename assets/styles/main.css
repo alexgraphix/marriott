@@ -1254,11 +1254,11 @@ fieldset {
 
 .page-header {
     width: 100%;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
-    background: url("../../images/KV_01.jpg");
+    background: url("../../images/KV_mobile.jpg");
     background-color: #f9f9f9;
 }
 
@@ -1270,13 +1270,14 @@ fieldset {
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 140%;
 }
 
 @media (min-width:767px) {
 
     .page-header {
         padding-top: 130px;
+        background: url("../../images/KV_01.jpg");
     }
 
     .fixed-background {
@@ -1320,7 +1321,7 @@ fieldset {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .KV-subheader-desc {
@@ -1337,7 +1338,7 @@ fieldset {
 }
 
 .KV_logo {
-    padding-top: 260px;
+    padding-top: 170px;
 }
 
 .KV_logo img {
