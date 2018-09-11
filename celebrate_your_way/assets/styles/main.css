@@ -1344,7 +1344,7 @@ fieldset {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 276px;
+    padding-top: 200px;
 }
 
 .KV-subheader-desc {
@@ -1361,7 +1361,7 @@ fieldset {
     .KV-subheader {
         font-size: 36px;
         padding-top: 40px;
-        padding-top: 366px;
+        padding-top: 300px;
     }
     .KV-subheader-desc {
         font-size: 18px;
@@ -1372,7 +1372,7 @@ fieldset {
 
 @media (min-width:992px) {
     .KV-subheader {
-        padding-top: 35vw;
+        padding-top: 25vw;
     }
 
 }
