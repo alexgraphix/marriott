@@ -1112,8 +1112,8 @@ fieldset {
     .component-benefits__item {
         width: 30%;
         margin: 0;
-        padding-right: 80px;
-        padding-left: 80px;
+        padding-right: 5%;
+        padding-left: 5%;
         border-right:1px solid #ccc;
     }
     .component-benefits__item:first-child {
@@ -1273,10 +1273,10 @@ fieldset {
 .fixed-background-KV {
     background: url("../../images/KV_Marriott_Celebrate_Your_Way.jpg");
     background-attachment: scroll;
-    background-size: 134%;
-    background-position: center top;
+    background-size: 140%;
+    background-position: center 40px;
     background-repeat: no-repeat;
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 
 .fixed-background-form {
@@ -1292,10 +1292,20 @@ fieldset {
         padding-top: 85px;
     }
     .fixed-background-KV {
-        background: url("../../images/KV_Marriott_Celebrate_Your_Way.jpg");
         background-size: cover;
-        background-position: center top;
-        background-repeat: no-repeat;
+        background-position: center 100px;
+    }
+
+}
+
+
+
+
+@media (min-width:1180px) {
+    
+    .fixed-background-KV {
+        background-size: cover;
+        background-position: center 40px;
     }
 }
 
@@ -1356,6 +1366,13 @@ fieldset {
     .KV-subheader-desc {
         font-size: 18px;
         padding-top: 25px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .KV-subheader {
+        padding-top: 35vw;
     }
 
 }
