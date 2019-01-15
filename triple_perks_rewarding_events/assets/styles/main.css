@@ -1109,15 +1109,12 @@ fieldset {
     border: none;
 }
 
-
-
 @media (min-width:480px) {
     .component-benefits__item {
         width: 33%;
         margin: 0;
     }
 }
-
 
 @media (min-width:900px) {
     .component-benefits__item {
@@ -1263,11 +1260,10 @@ fieldset {
     padding-top: 27px;
     padding-bottom: 40px;
     z-index: 0;
-    position: relative;    
-    height:calc(100vw);
-    min-height:500px;
+    position: relative;
+    height: calc(100vw);
+    min-height: 500px;
 }
-
 
 .fixed-background-KV {
     background: url("../../images/KV_Marriott_triple_perks_rewarding.jpg");
@@ -1280,7 +1276,7 @@ fieldset {
 
 .fixed-background-triple-perks {
     background: url("../../images/bg_triple_rewards.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1288,7 +1284,7 @@ fieldset {
 
 .fixed-background-form {
     background: url("../../images/bg_triple_form_bg.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1297,19 +1293,18 @@ fieldset {
 @media (min-width:768px) {
     .page-header {
         padding-top: 65px;
-        min-height: 710px;
-        height:710px;
+        min-height: 800px;
+        height: 800px;
     }
     .fixed-background-KV {
         background-size: cover;
-        background-position: center bottom;
+        background-attachment: scroll;
     }
-}
-
-@media (min-width:1180px) {
-    .fixed-background-KV {
-        background-size: cover;
-        background-position: center bottom;
+    .fixed-background-triple-perks {
+        background-attachment: fixed;
+    }
+    .fixed-background-form {
+        background-attachment: fixed;
     }
 }
 
@@ -1891,8 +1886,8 @@ select.form-control:not([size]):not([multiple]) {
 .need-inspiration {
     background-color: #7cc4cb;
     color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -1900,7 +1895,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .inspiration-text {
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1914,6 +1909,16 @@ select.form-control:not([size]):not([multiple]) {
 
 .inspiration-text span {
     padding-right: 10px;
+}
+
+@media (min-width:600px) {
+    .need-inspiration {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .inspiration-text {
+        font-size: 22px;
+    }
 }
 
 /* end added css */
