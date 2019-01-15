@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="2">
+            <circle id="Oval" cx="18" cy="18" r="18"></circle>
+            <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" points="16 13 21.564209 18.064209 16 23.128418"></polyline>
+        </g>
+    </g>
+</svg>
