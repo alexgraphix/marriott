@@ -1262,13 +1262,13 @@ fieldset {
     z-index: 0;
     position: relative;
     height: calc(100vw);
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .fixed-background-KV {
     background: url("../../images/KV_Marriott_triple_perks_rewarding.jpg");
     background-attachment: scroll;
-    background-size: 170%;
+    background-size: 140%;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: #82a7c4;
@@ -1278,7 +1278,7 @@ fieldset {
     background: url("../../images/bg_triple_rewards.jpg");
     background-attachment: scroll;
     background-size: cover;
-    background-position: center top;
+    background-position: -400px top;
     background-repeat: no-repeat;
 }
 
@@ -1286,7 +1286,7 @@ fieldset {
     background: url("../../images/bg_triple_form_bg.jpg");
     background-attachment: scroll;
     background-size: cover;
-    background-position: center top;
+    background-position: left top;
     background-repeat: no-repeat;
 }
 
@@ -1301,9 +1301,11 @@ fieldset {
         background-attachment: scroll;
     }
     .fixed-background-triple-perks {
+        background-size: cover;
         background-attachment: fixed;
     }
     .fixed-background-form {
+        background-size: cover;
         background-attachment: fixed;
     }
 }
