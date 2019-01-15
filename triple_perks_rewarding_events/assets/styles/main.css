@@ -1261,8 +1261,8 @@ fieldset {
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
-    height: calc(100vw);
-    min-height: 600px;
+    min-height: 100vh;
+    height: 100vh;
 }
 
 .fixed-background-KV {
@@ -1293,16 +1293,17 @@ fieldset {
 @media (min-width:768px) {
     .page-header {
         padding-top: 65px;
-        min-height: 800px;
-        height: 800px;
+        min-height: 100vh;
+        height: 100vh;
     }
     .fixed-background-KV {
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .fixed-background-triple-perks {
         background-size: cover;
         background-attachment: fixed;
+        background-position: center top;
     }
     .fixed-background-form {
         background-size: cover;
