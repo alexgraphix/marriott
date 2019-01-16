@@ -1257,7 +1257,7 @@ fieldset {
 
 .page-header {
     width: 100%;
-    padding-top: 27px;
+    padding-top: 35px;
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
@@ -1268,7 +1268,7 @@ fieldset {
 .fixed-background-KV {
     background: url("../../images/KV_Marriott_triple_perks_rewarding.jpg");
     background-attachment: scroll;
-    background-size: 140%;
+    background-size: 200%;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: #82a7c4;
