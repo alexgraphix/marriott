@@ -1895,6 +1895,11 @@ select.form-control:not([size]):not([multiple]) {
     bottom: 0px;
     width: 100%;
     z-index: 9999 !important;
+    transition: 0.3s;
+}
+
+.movedown {
+    bottom: -80px;
 }
 
 .inspiration-text {
@@ -2060,3 +2065,4 @@ select.form-control:not([size]):not([multiple]) {
         padding: 20px;
     }
 }
+

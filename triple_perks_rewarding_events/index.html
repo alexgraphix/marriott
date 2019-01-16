@@ -130,12 +130,15 @@
 
 
 					</ul>
-					<div class="remarks" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">*Please see below for complete terms & conditions</div>
+					<div class="remarks" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">*Please see below for
+						complete terms & conditions</div>
 					<div class="call-to-action-button">
 
-						<div class="button-text" onclick="goToAnchor('get-in-touch-form')" data-aos="fade-up" data-aos-delay="600" data-aos-duration="2000">Start planning with us today</div>
+						<div class="button-text" onclick="goToAnchor('get-in-touch-form')" data-aos="fade-up" data-aos-delay="600"
+						 data-aos-duration="2000">Start planning with us today</div>
 					</div>
-					<div class="benefits-text" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">To enjoy this offer, book by 15 September, 2019 for arrivals by 30 September, 2019 to
+					<div class="benefits-text" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">To enjoy this offer,
+						book by 15 September, 2019 for arrivals by 30 September, 2019 to
 						enjoy our triple rewards!
 
 					</div>
@@ -890,7 +893,7 @@
 												<div class="quform-element quform-element-textarea quform-element-1_28 quform-cf quform-element-required">
 													<div class="quform-spacer">
 														<div class="quform-label quform-label-1_28">
-														  <label class="quform-label-text" for="quform_1_28_537b35">MESSAGE</label></div>
+															<label class="quform-label-text" for="quform_1_28_537b35">MESSAGE</label></div>
 														<div class="quform-inner quform-inner-textarea quform-inner-1_28">
 															<div class="quform-input quform-input-textarea quform-input-1_28 quform-cf"><textarea id="quform_1_28_537b35"
 																 name="quform_1_28" class="quform-field quform-field-textarea quform-field-1_28 form-control">Hello, I am interested in hosting a meeting or event at [Enter Hotel Name/Location] on the [Enter Date] for approximately [Enter Number] people.
@@ -932,7 +935,9 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 																		 for="quform_1_47_537b35_1" class="quform-option-label quform-option-label-1_47_1"></label></div>
 																</div>
 															</div>
-															<p class="quform-description quform-description-below">By completing this form, I agree to be contacted about this offer by a sales associate and agree to Marriott International's  <a href="https://www.marriott.com/about/privacy.mi" target="_blank">Privacy
+															<p class="quform-description quform-description-below">By completing this form, I agree to be contacted
+																about this offer by a sales associate and agree to Marriott International's <a href="https://www.marriott.com/about/privacy.mi"
+																 target="_blank">Privacy
 																	Statement</a>.</p>
 														</div>
 													</div>
@@ -995,7 +1000,7 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 			</section>
 
 
-			<section class="component need-inspiration text-center  page-container--gutters" style="z-index:400;">
+			<section class="component need-inspiration text-center  page-container--gutters movedown" style="z-index:400;">
 				<div class="page-container">
 					<a class="inspiration-text" href="http://creatives.mediatropy.com/b2b-content-hub/" target="_blank"><span>NEED
 							INSPIRATION</span> <img src="images/icon_arrow.svg"> </a>
@@ -1436,7 +1441,7 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 
 		$(document).ready(function () {
 
-			$('.slide-box').slick({
+			/*$('.slide-box').slick({
 				infinite: true,
 				slidesToShow: 3,
 				slidesToScroll: 1,
@@ -1451,15 +1456,27 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 
 			$('.slick-previous').click(function () {
 				$(".slide-box").slick('slickPrev');
-			});
+			}); */
 
 			AOS.init({
-   once: true
-})
+				once: true
+			})
 
 			$('[data-toggle="popover"]').popover({
 				html: true,
 				trigger: 'click'
+			});
+
+			$(window).scroll(function() {
+				var height = $(window).scrollTop();
+
+				if(height  >500) {
+					// do something
+					console.log ('aaa')
+					$('.need-inspiration').removeClass( "movedown" )
+				} else {
+					$('.need-inspiration').addClass( "movedown" )
+				}
 			});
 
 		});
