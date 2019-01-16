@@ -925,7 +925,7 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 												<div class="quform-element quform-element-checkbox quform-element-1_47 quform-cf quform-element-required">
 													<div class="quform-spacer">
 														<div class="quform-inner quform-inner-checkbox quform-inner-1_47">
-															<div class="quform-input quform-input-checkbox quform-input-1_47 quform-cf">
+															<div class="quform-input quform-input-checkbox quform-input-1_47 quform-cf" style="width:auto;">
 																<div class="quform-options quform-cf quform-options-block">
 																	<div class="quform-option quform-option-label-empty"><input type="checkbox" name="quform_1_47[]" id="quform_1_47_537b35_1"
 																		 class="quform-field quform-field-checkbox quform-field-1_47 quform-field-1_47_1" value="Privacy Agreement Checked" /><label
@@ -1453,7 +1453,9 @@ Please contact me for more details. Thank you.</textarea></div><label id="quform
 				$(".slide-box").slick('slickPrev');
 			});
 
-			AOS.init();
+			AOS.init({
+   once: true
+})
 
 			$('[data-toggle="popover"]').popover({
 				html: true,
