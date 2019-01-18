@@ -1261,8 +1261,8 @@ fieldset {
     padding-bottom: 40px;
     z-index: 0;
     position: relative;
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 495px;
+    height: 495px;
 }
 
 .fixed-background-KV {
@@ -1293,8 +1293,8 @@ fieldset {
 @media (min-width:768px) {
     .page-header {
         padding-top: 65px;
-        min-height: 100vh;
-        height: 100vh;
+        min-height: calc(100vh - 300px);
+        height: calc(100vh - 300px);
     }
     .fixed-background-KV {
         background: url("../../images/KV_Marriott_triple_perks_rewarding.jpg");
@@ -1400,7 +1400,7 @@ fieldset {
 }
 
 .KV_logo {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 @media (min-width:481px) {
